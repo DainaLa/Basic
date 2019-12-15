@@ -15,7 +15,7 @@ public class Basicv28 {
             System.out.println(S.reverse());
 
             System.out.println("");
-            System.out.println("Jei norite testi vel, iveskite zodi TAIP, jei norite sustoti iveskite zodi NE");
+            System.out.println("Jei norite testi vel, iveskite zodi TAIP, jei norite isjungti programa, iveskite zodi NE");
             String userAnswer = tsc.nextLine();
             if (userAnswer.equalsIgnoreCase("NE"))
                 tekstas = false;
